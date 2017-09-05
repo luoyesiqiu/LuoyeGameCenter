@@ -11,7 +11,7 @@
 
 ![主界面](/screenshot/main.png)
 
-![创建游戏](/screenshot/creete_game.png)
+![创建游戏](/screenshot/create_game.png)
 
 ![连接游戏](/screenshot/connect_game.png)
 
