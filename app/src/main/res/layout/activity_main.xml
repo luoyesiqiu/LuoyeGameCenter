@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.luoye.game.MainActivity">
+
+<TableLayout
+    android:id="@+id/main_table_layout"
+    android:layout_centerInParent="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TableRow android:gravity="center"
+        android:layout_height="150dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+        android:padding="10dp"
+            android:layout_margin="10dp"
+        android:background="@drawable/button_blue_style"
+        android:layout_width="match_parent"
+        android:id="@+id/create_game"
+        android:textColor="#fff"
+        android:layout_height="wrap_content" >
+            <ImageView
+                android:layout_margin="10dp"
+                android:src="@mipmap/create_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:text="@string/create_game"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_green_style"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:id="@+id/connect_to_game"
+            android:layout_height="wrap_content" >
+            <ImageView
+                android:layout_margin="10dp"
+                android:src="@mipmap/connect_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/connect_to_game"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+    </TableRow>
+        <!--分割线-->
+    <TableRow android:gravity="center"   android:layout_height="150dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_purple_style"
+            android:layout_width="match_parent"
+            android:id="@+id/single_game"
+            android:textColor="#fff"
+            android:layout_height="match_parent" >
+            <ImageView
+                android:layout_margin="10dp"
+                android:src="@mipmap/single"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:text="@string/single_game"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <!--最够的两大块-->
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:weightSum="1"
+
+            android:layout_margin="10dp"
+            >
+            <LinearLayout
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/button_pink_button"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:id="@+id/setting_button"
+                android:layout_height="wrap_content" >
+                <ImageView
+
+                    android:src="@mipmap/setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/setting"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/button_blue_style"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:id="@+id/about_button"
+            android:layout_height="wrap_content" >
+            <ImageView
+                android:src="@mipmap/about"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <TextView
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/about_app"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>
+
+</RelativeLayout>

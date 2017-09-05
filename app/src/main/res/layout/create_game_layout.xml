@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:background="@drawable/button_gray_style"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:text="选择游戏文件..."
+        android:id="@+id/button_select_file"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_game_name"
+        android:hint="游戏名称"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_accept_user"
+        android:hint="指定用户连接（选填）"
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:textColor="#fff"
+        android:background="@drawable/button_blue_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_game_button"
+        android:id="@+id/button_create_game"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

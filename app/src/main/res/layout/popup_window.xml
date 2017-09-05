@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:theme="@style/AppTheme"
+    android:layout_width="wrap_content"
+    android:background="@color/popup_color"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/popup_screenshot"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/camera"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <ImageButton
+            android:id="@+id/popup_restart"
+            android:scaleType="fitCenter"
+            android:layout_width="50dp"
+            android:src="@mipmap/restart"
+            android:layout_height="50dp" />
+
+        <ImageButton
+            android:id="@+id/popup_power"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/power"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <View
+        android:background="?android:dividerHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ListView
+        android:id="@+id/popup_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>
+
+</LinearLayout>

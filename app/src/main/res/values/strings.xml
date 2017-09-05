@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">落叶联机平台</string>
+    <string name="create_game">创建游戏</string>
+    <string name="connect_to_game">连接到游戏</string>
+    <string name="single_game">单人游戏</string>
+    <string name="about_app">关于</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_fail">注册失败</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_fail">登录失败</string>
+    <string name="connect_server_success">连接服务器成功</string>
+    <string name="connect_server_fail">连接服务器失败</string>
+    <string name="send_msg_success">发送消息成功</string>
+    <string name="send_msg_fail">发送消息失败</string>
+    <string name="rom_not_supported">不支持的ROM</string>
+    <string name="load_rom_failed">加载ROM失败</string>
+    <string name="title_login_and_register">登录/注册</string>
+    <string name="reg_fail">注册失败，可能该用户名已被注册</string>
+    <string name="reg_login_success">注册并登录成功</string>
+    <string name="create_game_button"><![CDATA[>> 创建游戏 <<]]></string>
+    <string name="setting">设置</string>
+</resources>

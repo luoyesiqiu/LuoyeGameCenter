@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="popup_list_array">
+        <item>跟着我</item>
+        <item>麻烦快点哦</item>
+        <item>谢谢你</item>
+        <item>和你玩游戏真开心</item>
+        <item>请求重新开始</item>
+        <item>亲，还有事得下线了</item>
+        <item>不怎么会玩，请见谅</item>
+    </string-array>
+</resources>

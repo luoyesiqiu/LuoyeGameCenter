@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NESNetGame.iml" filepath="$PROJECT_DIR$/NESNetGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aes-crypto/aes-crypto.iml" filepath="$PROJECT_DIR$/aes-crypto/aes-crypto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/secure-prefs-library-release-v0.1.0/secure-prefs-library-release-v0.1.0.iml" filepath="$PROJECT_DIR$/secure-prefs-library-release-v0.1.0/secure-prefs-library-release-v0.1.0.iml" />
+    </modules>
+  </component>
+</project>

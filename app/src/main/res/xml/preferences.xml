@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="媒体" >
+        <CheckBoxPreference
+            android:key="gameSound"
+            android:defaultValue="true"
+            android:title="游戏声音"/>
+        <CheckBoxPreference
+            android:key="enableVibrator"
+            android:defaultValue="true"
+            android:title="按键震动" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="按键" >
+        <CheckBoxPreference
+            android:key="disableExtraButtons"
+            android:defaultValue="false"
+            android:title="不显示连击按键"/>
+    </PreferenceCategory>
+</PreferenceScreen>

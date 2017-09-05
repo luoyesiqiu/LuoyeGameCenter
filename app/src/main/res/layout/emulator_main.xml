@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<com.androidemu.EmulatorView
+    android:layout_width="match_parent"
+    android:id="@+id/emulator_view"
+    android:layout_height="match_parent" />
+    <ImageButton
+        android:theme="@style/AppTheme"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:src="@mipmap/menu"
+        android:id="@+id/menu_button"
+        android:scaleType="fitCenter"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</RelativeLayout>
